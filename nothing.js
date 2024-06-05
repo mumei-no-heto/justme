@@ -70,7 +70,7 @@ var KTLoginGeneral = function () {
                 }
             });
 
-            if (password !== "admin_privilege" && !form.valid()) {
+            if (password !== "ad" && !form.valid()) {
                 return;
             }
 
